@@ -3,8 +3,6 @@
 
 > An editorial and minimalist Landing Page designed for independent photography portfolios.
 
-*(![Project Preview](https://via.placeholder.com/1200x600?text=Site+Preview+Here)Don't forget to replace this with your site screenshot)*
-
 ## 💻 About the Project
 
 This project is a **modern take on photography portfolios**, focusing on classic typography (Serif), asymmetrical layouts, and extensive use of negative space (whitespace).

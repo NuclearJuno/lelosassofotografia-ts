@@ -1,73 +1,45 @@
-# React + TypeScript + Vite
+> 🇧🇷 [Leia esta documentação em Português](./README.pt-br.md)
+# 📸 Fashion Photographer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> An editorial and minimalist Landing Page designed for independent photography portfolios.
 
-Currently, two official plugins are available:
+## 💻 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a **modern take on photography portfolios**, focusing on classic typography (Serif), asymmetrical layouts, and extensive use of negative space (whitespace).
 
-## React Compiler
+The goal was to replicate high-end designs found on Behance using the most performant tools in the current React ecosystem. The code is fully typed with **TypeScript** to ensure robustness and maintainability.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+This project was built using the following technologies:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   **[React](https://reactjs.org/)** - Library for building user interfaces.
+-   **[TypeScript](https://www.typescriptlang.org/)** - A typed superset of JavaScript.
+-   **[Vite](https://vitejs.dev/)** - Next Generation Frontend Tooling.
+-   **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+-   ✅ **Responsive Design:** Fluid adaptation for Mobile, Tablet, and Desktop.
+-   ✅ **Asymmetrical Grid:** "Magazine-style" layouts (Masonry/Editorial).
+-   ✅ **Advanced Typography:** Google Fonts integration (Playfair Display & Inter).
+-   ✅ **Smooth Animations:** Hover effects and CSS transitions.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📦 How to Run
+
+Prerequisites: You need [Node.js](https://nodejs.org/) installed on your machine.
+
+```bash
+# 1. Clone this repository
+git clone [https://github.com/NuclearJuno/lelosassofotografia-ts.git](https://github.com/NuclearJuno/lelosassofotografia-ts.git)
+
+# 2. Go into the project folder
+cd lelosassofotografia-ts
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Made with 🖤 by NuclearJuno

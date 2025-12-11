@@ -2,8 +2,6 @@
 
 > Uma Landing Page com estética editorial e minimalista, desenvolvida para portfólios de fotografia de alta moda.
 
-*(![Project Preview](https://via.placeholder.com/1200x600?text=Preview+do+Seu+Site+Aqui) Não esqueça de colocar o link do print do seu site aqui)*
-
 ## 💻 Sobre o Projeto
 
 Este projeto é uma **releitura moderna de portfólios de fotografia**, focado em tipografia clássica (Serifa), layouts assimétricos e muito espaço negativo (whitespace).

@@ -26,7 +26,7 @@ function App() {
     { label: 'Colaborações', href: '#colab' },
     { label: 'Categorias', href: '#categories' },
     { label: 'Sobre', href: '#about' },
-    { label: 'Contato', href: '#contact' }
+    { label: 'Contato', href: 'https://api.whatsapp.com/send/?phone=554195000580&text=Ol%C3%A1%2C+Lelo%21+Vi+seu+site+e+gostaria+de+saber+mais+sobre+seus+ensaios&type=phone_number&app_absent=0' }
   ];
 
   const categories: Category[] = [
@@ -121,7 +121,7 @@ function App() {
              </div>
           </div>
           <div className="w-full md:w-2/5 text-center md:text-left md:pl-8 order-1 md:order-2">
-            <p className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-gray-400 mb-4 animate-fade-in">Portfolio 2024</p>
+            <p className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-gray-400 mb-4 animate-fade-in">Portfolio 2025</p>
             <h1 className="font-serif text-5xl md:text-7xl mb-6 leading-[0.9] text-fashion-black">Lelo <br/> Sasso</h1>
             <p className="text-gray-500 mb-8 leading-relaxed text-sm max-w-xs mx-auto md:mx-0">Capturando a essência e lifestyle com uma visão contemporânea e única.</p>
             <a href="#categories" className="group border border-black px-8 py-3 text-[10px] uppercase tracking-widest hover:bg-black hover:text-white transition duration-300 inline-flex items-center gap-2">
@@ -163,7 +163,7 @@ function App() {
            */}
            <div className="md:hidden">
               <div className="mb-6 flex justify-between items-end px-2">
-                <h2 className="font-serif text-4xl text-fashion-black">Categories</h2>
+                <h2 className="font-serif text-4xl text-fashion-black">Categorias</h2>
                 <span className="text-[10px] uppercase text-gray-400 tracking-widest animate-pulse">Deslize &rarr;</span>
               </div>
               
@@ -186,7 +186,7 @@ function App() {
               {categories.slice(0, 3).map((cat) => <DesktopCategoryItem key={cat.id} cat={cat} />)}
               
               <div className={`flex items-center justify-center h-full transition-all duration-500 overflow-hidden ${activeCategory !== null ? 'w-0 opacity-0' : 'w-[300px] opacity-100'}`}>
-                <h2 className="font-serif text-6xl text-fashion-black">Categories</h2>
+                <h2 className="font-serif text-6xl text-fashion-black">Categorias</h2>
               </div>
               
               {categories.slice(3, 6).map((cat) => <DesktopCategoryItem key={cat.id} cat={cat} />)}
@@ -243,7 +243,7 @@ function App() {
 
             <div className="md:col-span-4 flex flex-col justify-between min-h-[200px] md:min-h-[250px]">
               <div>
-                <p className="text-gray-500 text-[10px] mb-2 uppercase tracking-widest">© 2024 Photography Portfolio</p>
+                <p className="text-gray-500 text-[10px] mb-2 uppercase tracking-widest">© 2025 Photography Portfolio</p>
                 <h2 className="font-serif text-3xl md:text-4xl text-white">Lelo Sasso</h2>
               </div>
               <div className="mt-8 md:mt-0">
@@ -264,13 +264,13 @@ function App() {
             <div className="md:col-span-4 grid grid-cols-2 md:grid-cols-3 gap-8 text-sm text-gray-400 pt-0 md:pt-8">
                 <div className="flex flex-col gap-3">
                   <h4 className="text-white mb-2 font-medium uppercase tracking-widest text-[10px]">Socials</h4>
-                  <a href="#" className="hover:text-white transition">Instagram</a>
-                  <a href="#" className="hover:text-white transition">TikTok</a>
+                  <a href="https://www.instagram.com/lelosasso?igsh=MTExZTVlYWtrem1k" className="hover:text-white transition">Instagram</a>
+                  <a href="https://api.whatsapp.com/send/?phone=554195000580&text=Ol%C3%A1%2C+Lelo%21+Vi+seu+site+e+gostaria+de+saber+mais+sobre+seus+ensaios&type=phone_number&app_absent=0" className="hover:text-white transition">WhatsApp</a>
                 </div>
                 <div className="flex flex-col gap-3">
                   <h4 className="text-white mb-2 font-medium uppercase tracking-widest text-[10px]">Info</h4>
                   <p>Curitiba - PR</p>
-                  <a href="mailto:lelosassofotografia@gmail.com" className="hover:text-white transition">Email</a>
+                  <a href="mailto:lelo.sasso@gmail.com" className="hover:text-white transition">Email</a>
                 </div>
             </div>
           </div>

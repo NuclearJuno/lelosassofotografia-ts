@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'fashion-bg': '#F8F8F8',   // O cinza claro do fundo
-        'fashion-black': '#111111', // O preto suave
+        'fashion-bg': '#fcfcfc',
+        'fashion-black': '#111111',
       },
       fontFamily: {
-        serif: ['"Playfair Display"', 'serif'], // Fonte dos títulos
-        sans: ['"Inter"', 'sans-serif'],        // Fonte do texto
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['"Inter"', 'sans-serif'],
       },
     },
   },
